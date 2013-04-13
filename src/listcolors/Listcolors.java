@@ -30,7 +30,9 @@ public class Listcolors extends JavaPlugin{
                                 p.sendMessage(ChatColor.LIGHT_PURPLE + "This is Light Purple text");
                                 p.sendMessage(ChatColor.BOLD + "" + ChatColor.GOLD + ChatColor.ITALIC + "=-=-=Once you have chosen a color, ask staff=-=-=");
                                 
-                                if(cmd.getName().equalsIgnoreCase("Colortext")){
+                        }
+                        
+                                if(cmd.getName().equalsIgnoreCase("Colortext"))
                                     if (p.hasPermission("Donator")){
                                             if(args.length >= 1){
                                                     if(args[0].equalsIgnoreCase("red")){
@@ -223,8 +225,7 @@ public class Listcolors extends JavaPlugin{
                             }      
                             return false;
                     }
-                        }
-                        else{
+                        }else{
                                 p.sendMessage(ChatColor.WHITE + "You do not have permission to execute this command.");
                         }
                         return true;
