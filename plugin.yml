@@ -1,0 +1,8 @@
+name: Dcolors
+main: listcolors.Listcolors
+version: 1.0
+author: Sicknote45
+
+commands:
+   Dcolors:
+      description: Lists color possibilities
